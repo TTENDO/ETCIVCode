@@ -1,0 +1,62 @@
+h2{
+    color:green;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color:blue;
+    text-align:right;
+}
+
+p{
+    color:yellow;
+}
+
+.first{
+                    font-weight: bold;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.third{
+    color:blue;
+}
+
+#html{
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+h3{
+    text-decoration: overline;
+    text-transform: uppercase;
+  /*  text-shadow: 3px 2px blue;*/
+}
+
+h3.header3{
+    color: rgb(100,150,142);
+}
+
+.mydiv{
+    background-color:green;
+    width:50%;
+    height:50%;
+}
+.div-2{
+    background-color:yellow;
+    width:50%;
+    height:50%;
+    display: inline-block;
+}
+
+.menu  div{
+    display: inline-block;
+    background-color: blue;
+    width:100px;
+    height:40px;
+}
