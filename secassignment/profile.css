@@ -23,3 +23,12 @@ div>a{
     text-decoration: none;
 }
 
+a[href*="twitter.com/"] {
+    background:url(https://twitter.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+    }
+    
+    a[href*="facebook.com/"] {
+    background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+    }
