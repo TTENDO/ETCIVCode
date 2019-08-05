@@ -1,0 +1,68 @@
+h3{
+    text-align: center;
+}
+.indented{
+    text-indent: 50px;
+}
+
+.l-spacing{
+letter-spacing: 5px;
+}
+
+.w-spacing{
+    word-spacing: 50px;
+}
+
+.direction{
+    direction:rtl;
+}
+
+
+div.lhn{
+    width:55%;
+    line-height: normal;
+}
+ div.onepsix{
+    width:55%;
+    line-height: 1.6;
+ }
+ div.eighty{
+    width:55%;
+    line-height: 80%;
+ }
+ div.twohundred{
+    width:55%;
+    line-height: 200%;
+ }
+
+ .lheight{
+    background-color:green;
+}
+.wsp{
+  background-color: aqua;
+}
+
+    div.cp{
+    white-space: nowrap; 
+    overflow: hidden;
+    border:1px solid blue;
+    text-overflow: clip;
+    width:50px;
+}
+
+div.es{
+    white-space: nowrap; 
+    overflow: hidden;
+    border:1px solid blue;
+    text-overflow: ellipsis;
+    width:50px;
+}
+
+div.ud{
+    white-space: nowrap; 
+    overflow: hidden;
+    border:1px solid blue;
+    text-overflow: "----";
+    width:50px;
+}
+

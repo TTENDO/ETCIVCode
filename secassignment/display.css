@@ -1,0 +1,229 @@
+.out {
+    border: 2px solid yellow;
+    background-color: lightpink;
+    padding: 20px;
+    display:contents;
+  }
+  
+  .inn {
+    background-color:chocolate;
+    padding: 20px;
+  }
+
+  .flex-c{
+    display: flex;
+    background-color: teal;
+  }
+
+  .flex-c>div{
+    background-color:orangered;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+  }
+
+  .flex-dc{
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-dc> div {
+    background-color:orangered;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-cr {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-cr > div {
+    background-color:orangered;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-r {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-r > div {
+    background-color:orangered;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-rr {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-rr > div {
+    background-color:orangered;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-w {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-w > div {
+    background-color:orangered;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-nw{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: purple;
+  }
+  
+  .flex-nw>div {
+    background-color:yellow;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-wr{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: purple;
+  }
+  
+  .flex-wr>div {
+    background-color:yellow;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-s{
+     display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: 250px;
+    background-color: purple;
+  }
+
+  .flex-s>div{
+    background-color: yellow;
+    width: 100px;   line-height: 75px;
+    height: 100px;   text-align: center;
+    margin: 10px;
+  }
+
+  .flex-e{
+    display: flex;
+   justify-content: flex-end;
+   width: 400px;
+   height: 250px;
+   background-color: purple;
+ }
+
+ .flex-e>div{
+   background-color: yellow;
+   width: 100px;   line-height: 75px;
+   height: 100px;   text-align: center;
+   margin: 10px;
+ }
+
+ .flex-c{
+    display: flex;
+   justify-content: center;
+   width: 400px;
+   height: 150px;
+  border:1px solid purple;
+ }
+
+ .flex-c>div{
+   background-color: yellow;
+   width:50px;   
+   height: 50px;   
+    }
+
+ .flex-sa{
+    display: flex;
+   justify-content: space-around;
+   width: 400px;
+   height: 400px;
+   background-color: purple;
+ }
+
+ .flex-sa>div{
+   background-color: yellow;
+   width: 100px;   
+   height: 100px;   
+   margin: 10px;
+ }
+
+ .flex-sb{
+    display: flex;
+   justify-content: space-between;
+   width: 400px;
+   height: 400px;
+   background-color: purple;
+ }
+
+ .flex-sb>div{
+   background-color: yellow;
+   width: 100px;   
+   height: 100px;   
+   margin: 10px;
+ }
+
+ .flex-st{
+    display: flex;
+    align-items: stretch;
+     background-color: yellow;
+ }
+
+ .flex-st>div{
+   background-color: brown;
+   width: 100px;   
+   height: 100px;   
+   margin: 10px;
+ }
+
+ .flex-bs{
+    display: flex;
+    align-items:baseline;
+     background-color: yellow;
+ }
+
+ .flex-bs>div{
+   background-color: brown;
+   width: 100px;   
+   height: 100px;   
+   margin: 10px;
+  
+ }

@@ -1,0 +1,42 @@
+p{
+  margin-bottom:2cm;
+}
+
+.p{
+    line-height:125%;
+}
+
+p.e{
+    font-size: 30px;
+    }
+  span {
+    font-size: 0.5em;
+  }
+
+  p.dex{
+    font-size: 30px;
+    border: 1px solid blue;
+  }
+  p.x{
+    font-size: 1ex;
+}
+  
+div.milimts{
+    font-size: 10mm;
+}
+
+div.ihs{
+    font-size: 0.5in;
+}
+
+div.pxl{
+    font-size: 15px;
+}
+
+div.pts{
+    font-size: 45pt;
+}
+
+div.pac{
+    font-size: 1.5pc;
+}

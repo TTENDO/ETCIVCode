@@ -1,0 +1,36 @@
+ol{
+    list-style:none;
+    border:1px solid blue;
+}
+
+#code{
+    background-color: blue;
+    width:960px;
+    margin: 0 auto;
+}
+
+.this{
+    background-color: teal;
+    color:white;
+    width:700px; margin: 0 auto;
+}
+
+div ol{
+    background-color: aqua;
+}
+
+body > .direct{
+background-color: red;
+}
+
+input[type="text"]{
+   background-color:orange;
+}
+
+input[type="number"]{
+    background-color:rgb(21, 255, 0);
+ }
+
+ input[type="password"]{
+    background-color:rgb(167, 141, 92);
+ }
