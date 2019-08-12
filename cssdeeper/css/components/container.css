@@ -1,0 +1,16 @@
+.dad{
+    background-color: yellow;
+}
+.dad div{
+    background-color: aqua;
+    width:20px;
+    height:20px;
+    margin:10px;
+}
+
+.child-2{
+    flex-grow: 2;
+}
+.email{
+    display:flex;
+}
