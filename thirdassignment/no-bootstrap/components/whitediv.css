@@ -1,0 +1,48 @@
+.white i{
+    color:#1da1f2;
+}
+.after-flex{
+    width: 350px;     height:326px;
+    padding:100px 200px 100px 200px ;
+    font-family:  'Segoe UI', Arial, sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+div .see{
+    font-size:27px;
+    font-weight:bold;
+}
+
+div .join{
+    font-size:18px;
+    font-weight:bold;
+    margin:48px 0px 16px;
+    align-items: flex-start;
+   width: 350px; height:24px;
+}
+.icon{
+    font-size:30px;
+}
+
+.top{
+       justify-content: space-between;
+        width:350px; height:42px;
+}
+
+.flex-box{
+    display:flex;
+    align-items: flex-start;
+    width:500px;
+    padding-left:200px;
+}
+.flex-item{
+  margin:10px;
+}
+
+input{
+    height:30px;
+    background-color: rgb(209, 236, 238);
+    border:0 px solid rgb(209, 236, 238);
+}

@@ -1,0 +1,92 @@
+.blue{
+    background-image: url('/no-bootstrap/images/bluetwitter.png');
+    background-size:cover;
+}
+
+.login{
+padding:12px;
+border:1px solid #1da1f2;
+background-color:white;
+border-radius:20px 20px;
+color:#1da1f2;
+font-size:12px;
+}
+
+.signup{
+background-color:#1da1f2;
+color:white;
+padding: 5px 15px;
+width:350px;
+height:34px;
+border:1px solid #1da1f2;
+border-radius:50px 50px;
+margin-bottom:16px;
+}
+
+.llogin{
+background-color:white;
+color:#1da1f2;
+padding: 5px 15px;
+width:350px;
+height:34px;
+border:1px solid #1da1f2;
+border-radius:50px 50px;
+margin-bottom:16px;
+}
+
+.icon{
+              font-size:30px;     
+              color:#1da1f2; 
+  }
+
+  .white{
+    width: 350px;height:326px;
+    padding:100px 100px 100px 100px;
+    font-family:  'Segoe UI', Arial, sans-serif;
+ }
+  
+.white .see{
+    font-size:27px;
+    font-weight:bold;
+}
+.white  .join{
+    font-size:18px;
+    font-weight:bold;
+}
+
+/*blue div*/
+.blue{
+color:white;
+font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+}
+.b-1{
+    font-size:27px; font-weight:bold;
+    margin:32px 0px 10 px;
+  }
+.b-2{
+    font-size:17px; font-weight:bold;
+  margin-bottom:50px;
+  }
+
+  .footer a{
+      font-size:12px;
+      margin:10px;
+  }
+  .fai{
+      font-size:40px;
+  }
+  .flex-box{
+      display:flex;
+      align-items: flex-start;
+     padding-left:100px;
+            }
+.flex-item{
+    margin:8px;
+}
+
+input{
+    background-color: rgb(209, 236, 238);
+    border:0 px solid rgb(209, 236, 238);
+    width:150px;
+}
+

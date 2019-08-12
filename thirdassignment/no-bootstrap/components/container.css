@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+   }
+.inner{
+    display:flex;
+}
+
+.footer{
+    font-size:14px;
+      padding-top:5px;
+}
+
+.footer a{
+    text-decoration:none;
+    margin:10px;
+}
