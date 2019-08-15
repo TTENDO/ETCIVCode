@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Other selectors</title>
+    <link rel="stylesheet" href="otherselectors.css">
+</head>
+<body>
+  <ol>
+      <li>
+          <b>Universal Selector</b><br>
+          <div>
+                It works as a wild card character selecting all elements on a page. 
+                The three lines apply to all elements on the HTML page.<br>
+                <img src="./images/universal.png" alt=""><br>
+            </div>
+      </li><br>
+      <li>
+          <b>General sibling combinatory</b><br>
+          <div>
+                This selector matches elements based on sibling relationships asin 
+                selected elements are beside each other in the Html.
+                This selector is declared using the tilde (~) character.<br> 
+
+                <img src="./images/generalSibling.png" alt="">
+                <br>HTML code is as shown<br>
+                <img src="images/gshtml.png"><br>
+                So all paragraphs who are siblings with h2 will be styled with 
+                the margin-bottom code in this case, the first three 
+                paragraphs and not the last paragraph because it is 
+                in a div.
+                It also applies to the elements between the 'h2' and 'p'
+          </div>
+      </li><br>
+      <li>
+          <b>Adjancent sibling combinator</b><br>
+          It uses the ‘+’ symbol and is similar to the general sibling selector
+         but the targeted element must be an immediate sibling and not any sibling.<br>
+
+         <img src="./images/ascss.png" alt=""><br>
+         If we apply the above lines to the HTML below,<br>
+         <img src="./images/ashtml.png" alt=""><br>
+         The styles will only affect the second, third and fifth paragraphs.<br>
+      </li><br>
+      <li>
+          <b>Pseudo-class</b><br>
+          It uses a colon character to identify a pseudo-state that an 
+          element might be in eg the state of being hovered. <br>
+          <img src="./images/pseudocsss.png" alt=""><br>
+          So now it means that this pseudo-class has been attached too all 
+          anchor elements. So when the user hovers over them, the color 
+          property will be activated to red.
+        Therefore, I concluded that these selectors don’t just select 
+        elements but elements in a particular state.<br>
+
+      </li><br>
+
+      <li>
+          <b>Pseudo element</b><br>
+          We are using an example with one kind of pseudo-element ie 
+          the ‘before’. This inserts an imaginary element into the page, 
+          inside the targeted element, before its contents.
+            <br><img src="./images/psuedoelement.png" alt="">
+      </li><br>
+  </ol>  
+</body>
+</html>
