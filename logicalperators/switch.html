@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switch statement</title>
+</head>
+<body>
+    <h3>Switch Statement</h3>
+    <div>
+        <h4>Syntax</h4><br>
+            switch(expression) {<br>
+                case n: code block <br>
+                break; <br>
+                case n: code block <br>
+                break; <br>
+                default:
+                    default code block
+            }
+            <br>
+
+            <h4>This is how it works</h4>
+            The switch expression is evaluated once.
+            The value of the expression is compared with the values of each case.
+            If there is a match, the associated block of code is executed. <br>
+
+            <h4>The break Keyword</h4>
+            When JavaScript reaches a break keyword, it breaks out of the switch 
+            block meaning this will stop the execution of more code and case 
+            testing inside the block.
+            When a match is found, and the job is done, it's time for a break 
+            so no need for more testing
+
+            <h4>The default Keyword</h4>
+            The default keyword specifies the code to run if there is no case match:
+
+    </div>
+
+    <script>
+        let age = prompt(`How old are you?`);
+        switch (true) {
+        case (age < 18):
+        alert("Sorry, you are too young to drink");
+        break;
+        case (age < 50):
+        alert("Woooo you can drink");
+        break;
+        case (age >= 50):
+        alert("Sorry, you cant handle drinking");
+        }
+    </script>
+    
+</body>
+</html>
+
